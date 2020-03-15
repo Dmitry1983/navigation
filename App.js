@@ -32,7 +32,7 @@ const DetailsScreen = ({ navigation }) => {
   const isFocused = useIsFocused();
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text style={{ color: isFocused ? "green" : "black" }}
+      <Text style={{ color: isFocused ? "green" : "red" }}
       > {//isFocused ? 'focused' : 'unfocused' 
         }
         Settings Screen
