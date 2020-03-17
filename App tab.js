@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { View, Text, Button } from 'react-native';
-import { NavigationContainer, useIsFocused } from '@react-navigation/native';
+import { NavigationContainer, useIsFocused, DrawerRouter } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+
 
 const Stack = createStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
-const Drawer = createDrawerNavigator();
+
 
 const HomeScreen = ({ navigation }) => {
   navigation.setOptions({
@@ -53,20 +53,20 @@ const DetailsScreen = ({ navigation }) => {
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen
+      <Tab.Navigator initialRouteName="Home">
+        <Tab.Screen
           options={{ title: 'My home screen' }}
           name="Home"
           component={HomeScreen}
         >
 
-        </Drawer.Screen>
-        <Drawer.Screen
+        </Tab.Screen>
+        <Tab.Screen
           options={{ title: 'My details screen' }}
           name="Details"
           component={DetailsScreen}
         />
-      </Drawer.Navigator>
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }

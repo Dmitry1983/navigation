@@ -1055,6 +1055,14 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.7.tgz#a65ce0702f55cb67fd777995de6fc7b3e5781903"
   integrity sha512-9KbP7LTLFz9dx1heURJbO6nuVMdSjDez8znlrUzaB1nUwKVsTTwlKRuHxGUYIIkReLWrJQeCv9tidy+84z2eCw==
 
+"@react-navigation/bottom-tabs@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-5.2.1.tgz#ccffe0752fe6d5bd4577016b62c91e4bf130071d"
+  integrity sha512-kcLqmOw3e4dkRCh9XVNiZJuukrw+V+vyagNUSnxBB8b1mck6KS378pA4u+yIa+kLJEMVDyZIQfUdAZq7yJUKMw==
+  dependencies:
+    color "^3.1.2"
+    react-native-iphone-x-helper "^1.2.1"
+
 "@react-navigation/core@^3.6.1":
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.6.1.tgz#1b8922d9b0e6d74bd9d8802d1eaf21271c90a648"
@@ -1076,6 +1084,14 @@
     react-is "^16.12.0"
     shortid "^2.2.15"
     use-subscription "^1.3.0"
+
+"@react-navigation/drawer@^5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.3.0.tgz#55654ac4b4cbdbd257d6d3071ab6cb3675e74cdb"
+  integrity sha512-7pPQWKl86EITpskHHnY73HUljvZsp67r0kmpp5uDhz9I0D/QHvl6KtuS4ACOUS8kHP5e/aQkYPBvboZl55xvBQ==
+  dependencies:
+    color "^3.1.2"
+    react-native-iphone-x-helper "^1.2.1"
 
 "@react-navigation/native@^3.7.3":
   version "3.7.3"
